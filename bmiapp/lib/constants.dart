@@ -4,10 +4,13 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 
 const kbottomContainerHeight = 70.0;
-const kactivatedcardcolour1 = Colors.pink;
-const kbottomContainerColour = Colors.pink;
-const kinsidetextcolor = Colors.lightBlueAccent;
-const kinactivecardcolour1 = Color(0xFF1D1E33);
+const kactivatedcardcolour1 = Color(0xff517b65);
+const kbottomContainerColour = Color(0xff517b65);
+
+const kinsidetextcolor = Color(0xffd6d1c2);
+
+
+const kinactivecardcolour1 = Color(0xffab9b81);
 
 
 
