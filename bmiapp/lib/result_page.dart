@@ -26,10 +26,12 @@ class Resultpage extends StatelessWidget {
         children: [
           Expanded(
               child: Container(
-                  child: Text(
+                  child: Center(
+                    child: Text(
             'answers',
             style: kTitlesStyle,
-          ))),
+          ),
+                  ))),
           Expanded(
             flex: 4,
             child: ReusableCard2(

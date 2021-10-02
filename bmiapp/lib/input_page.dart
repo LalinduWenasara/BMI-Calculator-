@@ -59,6 +59,7 @@ class _InputPageState extends State<InputPage> {
               children: [
                 Expanded(
                   child: ReusableCard(
+
                     onPress: () {
                       setState(() {
                         selectedGender = Gender.male;
@@ -115,7 +116,7 @@ class _InputPageState extends State<InputPage> {
                       value: height.toDouble(),
                       min: 120.0,
                       max: 220.0,
-                      activeColor: Colors.pink,
+                      activeColor:  Color(0xff517b65),
                       inactiveColor: Colors.white,
                       onChanged: (double newvalue) {
                         print(newvalue);
@@ -134,7 +135,7 @@ class _InputPageState extends State<InputPage> {
               children: [
                 Expanded(
                   child: ReusableCard2(
-                    colour: Color(0xFF1D1E33),
+                    colour:  Color(0xffab9b81),
                     cardChild: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -154,7 +155,7 @@ class _InputPageState extends State<InputPage> {
                               },
                             ),
                             SizedBox(
-                              width: 20.0,
+                              width: MediaQuery.of(context).size.width/20,
                             ),
                             RoundIconButton(
                               func: () {
@@ -172,7 +173,7 @@ class _InputPageState extends State<InputPage> {
                 ),
                 Expanded(
                   child: ReusableCard2(
-                    colour: Color(0xFF1D1E33),
+                    colour:  Color(0xffab9b81),
                     cardChild: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -192,7 +193,7 @@ class _InputPageState extends State<InputPage> {
                               },
                             ),
                             SizedBox(
-                              width: 20.0,
+                              width: MediaQuery.of(context).size.width/20,
                             ),
                             RoundIconButton(
                               func: () {
