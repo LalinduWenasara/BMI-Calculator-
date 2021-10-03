@@ -37,7 +37,7 @@ class Resultpage extends StatelessWidget {
             child: ReusableCard2(
               colour: kinactivecardcolour1,
               cardChild: Container(
-                  padding: EdgeInsets.all(18.0),
+                  padding: EdgeInsets.all(10.0),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [

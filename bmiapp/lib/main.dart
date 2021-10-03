@@ -1,3 +1,4 @@
+import 'package:bmiapp/welcome.dart';
 import 'package:flutter/material.dart';
 import 'input_page.dart';
 
