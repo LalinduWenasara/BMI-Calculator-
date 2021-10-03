@@ -16,7 +16,7 @@ class InputPage extends StatefulWidget {
 }
 
 class _InputPageState extends State<InputPage> {
-  int height = 180;
+  int height = 170;
   int weight = 50;
   int age = 20;
   /*
@@ -246,8 +246,8 @@ class RoundIconButton extends StatelessWidget {
       elevation: 6.0,
       shape: CircleBorder(),
       constraints: BoxConstraints.tightFor(width: 60.0, height: 60.0),
-      fillColor: Colors.lightBlueAccent,
-      splashColor: Colors.pink,
+      fillColor: Color(0xff517b65),
+      splashColor: Colors.blueGrey,
     );
   }
 }
